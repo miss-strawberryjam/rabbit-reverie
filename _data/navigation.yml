@@ -1,0 +1,12 @@
+- name: home
+  link: /
+- name: author
+  link: /about.html
+- name: wardrobe
+  link: /wardrobe.html 
+- name: blog
+  link: /blog.html    
+- name: links & credits
+  link: /links.html       
+- name: guestbook
+  link: /guestbook.html    

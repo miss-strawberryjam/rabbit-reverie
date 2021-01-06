@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+.current {
+  color: #d88aa3;
+}
+
+body {
+ background-image: url("/assets/bg.jpg");
+ font-family: 'Jacques Francois', serif;
+ color: #685E4E;
+ margin:0;
+ padding:0;
+ height:100%;
+ text-align: center;
+}
+
+p {
+	text-align:justify;
+}
+
+
+
+
+nav {
+ background-image: url("/assets/menu-bg.png");
+ width: 175px;
+ height: 250px;
+ text-align: center;
+ font-family: 'IM Fell DW Pica SC', serif;
+ margin-top: 75px;
+ font-size: 18px;
+ padding-top: 10px;
+ background-repeat: no-repeat;
+ color: #685E4E;
+}
+
+a {
+	color: #685E4E;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #9e917c;
+	text-decoration: underline;
+}
+
+nav a {
+	text-decoration: none;
+	
+}
+
+.container-fluid {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    min-height: 100%; 
+}
+
+#header {
+	width: 100%;
+	padding-top: 0;
+	height:31px;
+	background: url("/assets/border.png");
+}
+
+#footer {
+   height:60px;
+   background: url("/assets/border.png");
+   background-repeat: repeat-x;
+   margin-top: 20px;
+}
+
+
+
+.about {
+   text-align: left;
+}
+
+
+.pagination {
+  display: inline-block;
+  word-spacing: 3px;
+  font-weight: 12px;
+}
+
+
+.pagination a {
+  float: left;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+.pagination a.selected {
+  text-decoration: underline;
+}
+
+.wrapper { 
+   min-height:100vh;
+   position:relative;
+   }
+
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+    text-align: center;
+}
+.fixed-table-container {
+    border:0px !important;
+}
