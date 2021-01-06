@@ -21,9 +21,12 @@ p {
 }
 
 li {
-  text-align: justify;
+  text-align: center;
 }
 
+.index-updates li {
+  text-align: center;
+}
 
 nav {
  background-image: url("/assets/menu-bg.png");
