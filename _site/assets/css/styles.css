@@ -7,6 +7,8 @@ body { background-image: url("/assets/bg.jpg"); font-family: 'Jacques Francois',
 
 p { text-align: justify; }
 
+li { text-align: justify; }
+
 nav { background-image: url("/assets/menu-bg.png"); width: 175px; height: 250px; text-align: center; font-family: 'IM Fell DW Pica SC', serif; margin-top: 75px; font-size: 18px; padding-top: 10px; background-repeat: no-repeat; color: #685E4E; }
 
 a { color: #685E4E; text-decoration: underline; }
