@@ -21,13 +21,104 @@ p {
 }
 
 li {
-  text-align: center;
+  text-align: justify;
 }
 
 .index-updates li {
   text-align: center;
 }
 
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 749px) {
+
+nav {
+ text-align: center;
+ font-family: 'IM Fell DW Pica SC', serif;
+ font-size: 18px;
+ color: #685E4E;
+ word-spacing: 16px;
+}
+nav ul li{
+  display: inline;
+  font-size: 18px;
+}
+
+ .mobile-hide {
+    display: none !important;
+ }
+
+.container-fluid {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+
+}
+
+.wardrobe {
+    width:100%!important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+
+
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 1024px) {
+.col-md-4, .col-md-8 {
+  width:100%!important;
+} 
+
+nav {
+ text-align: center;
+ font-family: 'IM Fell DW Pica SC', serif;
+ font-size: 18px;
+ color: #685E4E;
+ word-spacing: 16px;
+}
+nav ul li{
+  display: inline;
+  font-size: 18px;
+}
+
+ .mobile-hide {
+    display: none !important;
+ }
+
+.container-fluid {
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+
+}
+
+.wardrobe {
+    width:100%!important;
+}
+
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 1025px) {
 nav {
  background-image: url("/assets/menu-bg.png");
  width: 175px;
@@ -39,7 +130,29 @@ nav {
  padding-top: 10px;
  background-repeat: no-repeat;
  color: #685E4E;
+ list-style-type: none;
 }
+
+.container-fluid {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    min-height: 100%; 
+    text-align: center;
+}
+
+.right {
+   float:right!important
+}
+
+.wardrobe {
+    width:90%!important;
+}
+
+}
+
+
 
 a {
 	color: #685E4E;
@@ -56,13 +169,9 @@ nav a {
 	
 }
 
-.container-fluid {
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    position:relative;
-    min-height: 100%; 
-}
+
+
+
 
 #header {
 	width: 100%;
@@ -116,4 +225,15 @@ nav a {
 }
 .fixed-table-container {
     border:0px !important;
+}
+
+.img-responsive {width: auto;
+max-width: 100%;}
+
+
+.img-hor {
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
 }

@@ -4,9 +4,11 @@
   link: /about.html
 - name: wardrobe
   link: /wardrobe.html 
-- name: blog
-  link: /blog.html    
-- name: links & credits
+- name: diary
+  link: /diary.html    
+- name: links
   link: /links.html       
 - name: guestbook
-  link: /guestbook.html    
+  link: /guestbook.html  
+- name: subscribe
+  link: /subscribe.html    

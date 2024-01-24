@@ -2,23 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
+    {% if page.title == 'Home' %}
+    <title>{{ "rabbit . reverie" }}</title>
+    {% else %}
     <title>{{ "rabbit . reverie - " | append: page.title | downcase }}</title>
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <div class="row" id="header"></div>
+
+
+{% if page.page_type == 'wardrobe' %}
+  <div class="container-fluid wardrobe">
+{% else %}
   <div class="container-fluid">
+{% endif %}
+
+
   	<div class="row">
+      <div class="col-md-4 right">
+      {% include navigation.html %}
+      </div>
   			<div class="col-md-8">
           <br>
-	  			<img src="/assets/logo.png" /><br>
-	  			<img src="/assets/main.png" />
+	  			<img src="/assets/logo.png" class="center-block"/><br>
+	  			<a href="{% link index.html %}"><img class="img-responsive center-block" src="/assets/main.png" /></a>
   					<body>
     				{{ content }}
   					</body>
   			</div>
-			<div class="col-md-4">
-			{% include navigation.html %}
-			</div>
 		</div>
 	</div>
 
