@@ -3,7 +3,7 @@ layout: post
 author: strawberryjam
 date: 2024-01-23 08:00:45
 ---
-<p>I hung out with my friend <a href="https://www.instagram.com/kayas.coords/">Michelle</a> over the weekend. I had a really good time at her house and is very sweet!</p>
+<p>I hung out with my friend <a href="https://www.instagram.com/kayas.coords/">Michelle</a> over the weekend. I had a really good time at her house and she is very sweet!</p>
 <p>We twinned Mary Magdalene's Mary Lou OP. I got this dress recently after seeing Michelle wear it.. I really like the pink color. Pastel colors are really appealing to me!</p>
 <img src="/assets/coord/Picsart_24-01-21_17-06-58-391.jpg" class="img-rounded img-responsive center-block" style="max-height: 45%; max-width: 45%;">
 
