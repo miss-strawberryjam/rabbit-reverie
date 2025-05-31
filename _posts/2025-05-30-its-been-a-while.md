@@ -1,0 +1,53 @@
+---
+layout: post
+author: strawberryjam
+date: 2025-05-30 18:35:45
+---
+<p>It's really been over a year since I last posted! Wow! What was I doing :sweat:</p>
+<p>I wanted to share some recent cute moments! It's really important to cherish everyday things! Because it's all the little things accumulated that really make up life! Big things can only happen every now and then. And happiness isn't a state to be achieved, it's a state that happens sometimes ^^</p>
+
+<table class="table">
+<tr>
+<img src="/assets/other_pics/IMG_2932.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>I met with my friend <a href="https://cloverbell.neocities.org/">Lune</a>! I felt really special that she took time out of her graduation trip to see me! <br>
+Also, I've been looking to size down my wardrobe and I made a lucky pack for her ^^ She loved almost everything haha. It's wild how close our aesthetic matches ^^ Like not only do we both like classic, but we both like buntings, gingham, polka dots, etc. <br>
+It's a little weird because I love classic lolita, but a part of me really loves cute stuff too... I want to match more cute things with my classic coords now. And include stuff I like like rabbits! ^^</p>
+</tr>
+<tr>
+	<img src="/assets/other_pics/IMG_2878.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+	<p>We went thrift shopping in Niles! The little kangaroos have mail in their pouches! So cute~</p>
+	<img src="/assets/other_pics/IMG_2912.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+	<p>We also went to the Rose Garden.. it was soooo beautiful! So many roses were in bloom~</p>
+</tr>
+</table>
+
+<table class="table">
+<tr>
+
+<img src="/assets/other_pics/IMG_8703.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<img src="/assets/other_pics/IMG_8675.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<img src="/assets/other_pics/0F1D28EE-BD45-46F1-8ECF-2BBA229A5A40_1_102_o.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>This was from today~ It's comfort maxxxxxx to me. I was sitting at home in a well lit room water coloring and enjoying some barley tea! Not sure what it is about a simple life is being enjoyable. I love water coloring bun buns! Lune was a bad influence on me >_< She brings her watercolors everywhere... she showed me her sketchbook and I got inspired. I really wish I could be more creative! I like how the bottom "coffee" bun came out!</p>
+
+
+<img src="/assets/other_pics/IMG_8511.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>This is a bunting I made! I got inspired by Happy Garland by Angelica Pretty. I got into making homemade buttons (really just shrinky dinks lol) and learned to make fluffy animals too! Pls don't ask what is the left most animal haha ;_;</p>
+</tr>
+<tr>
+<img src="/assets/other_pics/IMG_8524.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>I also went to the newly opened Nintendo Store in San Francisco recently! And uh.. bought too much stuff oh nos. A lot of the Animal Crossing stuff was already sold out, this is what I could get! </p>
+<img src="/assets/other_pics/signal-2025-04-18-060911_003.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>Don't think I announced here that I got a puppy! His name is Kitkat (subversive I know), but he is a mini wiener dog so he is long and thin too! Hehe I took these pics with a new toy camera I got!</p>
+</tr>
+<tr>
+<img src="/assets/other_pics/IMG_8486.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>hehe he is way too smol for this bed! His spotted back reminds me of my Australian shepherd growing up... I like that he is small too so he doesn't need as much as exercise and will be a cuddle bug! <3 </p>
+</tr>
+</table>
+<img src="/assets/other_pics/IMG_8697.JPG" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>Oh Lune also influenced me to get a doll too! She is made by qlyworks and she's called Minie. I might rename her though! She is a sheep! <3 The clothes are so beaaaaautiful! I can't wait to show you my own pics when she arrives! ^^</p>
+
+<img src="/assets/other_pics/IMG_8270.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>here's a picture of me wearing Melty Ribbon Chocolate ^^ (ignore the grass, I was potty training Kitkat hehe)</p>
+
+<p>I sincerely hope everyone is doing well! Thanks for reading this far ^^</p>
