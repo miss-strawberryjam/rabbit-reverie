@@ -1,0 +1,46 @@
+---
+layout: post
+author: strawberryjam
+date: 2025-07-14 12:35:45
+---
+<p>The Hello Kitty Cafe in Santa Clara recently opened! It's located in the Westfield Valley Fair Mall. This is a very busy mall (unlike most others) and it's considered a high tier mall, I suppose, due to it's many luxury stores. ngl I love pink LV bags (but alas, I never want to actually spend that much. Lolita is more fun).</p>
+<p>I found out reservations were open and was lucky enough to snag one on the second day of opening!</p>
+<p>There's actually 2 portions to the cafe. The Bow Room hosts Afternoon Tea in the afternoon (hurhur) and dessert pairings in the evening. This portion of the cafe requires reservations.</p>
+<p>The counter of the cafe has snacks, drinks, and merchandise for purchase. You cannot make a reservation here. The line can be extremely long for this!</p>
+<p>Just a note, parking was extremely difficult. Even getting off the freeway to approach the mall was taking very long! I wanted to arrive like ~30 minutes early to browse other shops in the mall, but I ended up only arriving on time!</p>
+<p>I got a reservation for the dessert pairing. It seems to be a little bit easier to get this reservation and it's also less expensive. The Afternoon Tea looks fun, but for ~$70, I wasn't sure I wanted to gamble since character cafes aren't typically known for their stellar food..</p>
+
+
+
+<table class="table">
+<tr>
+<img src="/assets/other_pics/hello_kitty/D6E090B8-84DA-4759-9B36-0AE28B941982.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>Here's how the cafe looks from the outside! This was around 6pm on a Saturday (second day of opening). As you can see, it is a little busy! There was maybe 20 people in line?</p>
+<p>I spoke to a staff member holding a sign and he directed me to the Bow Room ^^</p>
+<img src="/assets/other_pics/hello_kitty/E79E9537-3096-44EE-BFAB-828FBD4A8947.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>I didn't get a good picture of the inside as I didn't want to take a picture of all the patrons and make them uncomfortable (idk, maybe that's too respectful of people)</p>
+<p>This is maybe 1/4th of the Bow Room, it's actually kind of small? I think there might be another section. Perhaps only this section is open for the dessert pairing.</p>
+<img src="/assets/other_pics/hello_kitty/4C19E7B5-1C35-4B5B-B563-A544DCDB8E1A.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>Here's how the place setting looks! It's so cuteeee~ (I kinda took home the napkin and stuff for junk journaling later!)</p>
+<img src="/assets/other_pics/hello_kitty/1C906394-1723-4E17-8EB3-2140615CBD4A.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>While I was waiting for my friends, the staff were kind enough to move the carts so that I could get a good picture. They offered to do this and take my picture. I am really grateful they were so nice!</p>
+<p>I wore Angelic Pretty's Promenade de Paris! I thought the bows on it kinda reminded me of Hello Kitty's hair bow and also, it's sweet and cute!</p>
+<img src="/assets/other_pics/hello_kitty/E0EED156-D507-4AFA-B1E8-3F9A2CD14026.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>Here's what my friends and I ordered! There's a strawberry tiramisu, matcha tiramisu, and the strawberry tart. The apple pie with ice cream was sold out. The staff told me the strawberry tiramisu was the most popular item. There was also no alcohol that day. (damn missed opportunity of getting drunk at hello kitty cafe ><)
+On the top right, there's also cream that was provided. It tasted like yummy marshmallows. I almost skipped it because I thought my tiramisu already had enough cream, but the marshmallow taste was delicious!</p>
+<p>Overall, the food was not bad. It's definitely not fancy like Japanese character cafes. But I think simple is fine too! Having very attractive looking, but not tasty food is my less preferred vibe.</p>
+<img src="/assets/other_pics/hello_kitty/50BA45AC-9C16-4E2C-A364-611A42F964F4.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>The staff sprinkled powder over a stencil to make the cute outline~ My Hello Kitty looks like she has cute freckles!</p>
+<p>I forgot to get a picture, but we all ordered strawberry sodas. All the other drinks were warm and it was quite hot in the cafe.</p>
+<img src="/assets/other_pics/hello_kitty/3283CC71-802B-43DE-838A-AC4BBF840C86_1_201_a.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<img src="/assets/other_pics/hello_kitty/B829084F-67BC-4B9E-AD30-A7818D9404BE_1_201_a.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>They didn't rush us at all (despite being one of the last reservations of the day), but eventually we got the bill. After paying the bill, they gifted us this cute keychain! It seems to be special for the grand opening of the cafe.</p>
+<img src="/assets/other_pics/hello_kitty/E5193F14-DE83-4F52-B447-17639B1E1D6A.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>My friends and I wrapped up the night sticker pictures! This brings back memories to high school... I really missed doing that.</p>
+<p>Scarlett came, but a new friend named Ashley came too! I met her from Bumble BFF. And although we haven't been friends for very long, I'm amazed at how considerate and thoughtful she is ;_; Navigating single life has been hard for me.. but she is like my cheerleader and advocate T_T I appreciate that so much. I still need to work on my own self esteem, but having a cheerleader makes me feel grateful. ilu.</p>
+<p>It was a really fun evening. I'm thankful for how things are moving in my life.</p>
+</tr>
+</table>
+<p>Thanks for reading!</p>
+<p>▶︎•၊၊||၊|။|||||။၊|။• New Jeans - ETA</p>
+<p>I really despise modern Kpop, but gonna admit New Jeans' songs are pretty fun. My heart is still with Jpop idols because of how silly and how much more sincere it feels. Not a fan of the manufactured, completely rehearsed Kpop look.</p>
