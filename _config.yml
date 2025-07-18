@@ -2,7 +2,7 @@ plugins:
   - jekyll-paginate-v2
 
 include:
-  - assets
+  - assets/css/cusdis-theme.css
 
 # Pagination Settings
 pagination:
