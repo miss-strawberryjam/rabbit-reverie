@@ -1,6 +1,9 @@
 plugins:
   - jekyll-paginate-v2
 
+include:
+  - assets
+
 # Pagination Settings
 pagination:
   permalink: '/page/:num/'
