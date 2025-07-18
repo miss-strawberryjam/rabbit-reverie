@@ -7,7 +7,7 @@ pagination:
 ---
 {% for post in paginator.posts %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <span class="date">{{ post.date | date: "%Y-%m-%d" }} | <a href="{{ post.url }}#utterances-thread">💬 view comments</a></span>
+  <span class="date">{{ post.date | date: "%Y-%m-%d" }} | <a href="{{ post.url }}#cusdis_thread">💬 view comments</a></span>
   <div class="content">
   	<p>
     {{ post.content }}
