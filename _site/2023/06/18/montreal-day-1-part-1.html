@@ -127,7 +127,7 @@ Unrelated to the Montreal trip.. I've been struggling a lot with my mental healt
 </p>
 
 
-<!-- 🧩 Cusdis thread element -->
+<!-- ✅ Cusdis Comment Box -->
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="2fbd67db-dbaf-4b81-bba1-5193744efb7b"
@@ -136,36 +136,14 @@ Unrelated to the Montreal trip.. I've been struggling a lot with my mental healt
   data-page-title="Montreal Day 1 Part 1"
 ></div>
 
-<!-- ✅ Inject custom CSS into iframe -->
+<!-- ✅ Set your custom CSS before loading script -->
 <script>
   window.CUSDIS_LOCALE = 'en';
-  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
-
-  document.addEventListener('cusdisIframeLoaded', () => {
-    const iframe = document.querySelector('#cusdis_thread iframe');
-    if (!iframe) return;
-
-    try {
-      const srcdoc = iframe.getAttribute('srcdoc');
-      if (srcdoc) {
-        const updated = srcdoc.replace(
-          /<link rel="stylesheet" href="[^"]*style\.css">/,
-          `<link rel="stylesheet" href="${window.CUSDIS_CSS}">`
-        );
-        iframe.setAttribute('srcdoc', updated);
-      }
-    } catch (e) {
-      console.warn('Could not patch Cusdis iframe:', e);
-    }
-  });
-
-  // load Cusdis script
-  const script = document.createElement('script');
-  script.src = 'https://cusdis.com/js/cusdis.es.js';
-  script.async = true;
-  script.defer = true;
-  document.body.appendChild(script);
+  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css?v=3';
 </script>
+
+<!-- ✅ Load Cusdis -->
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
         </div>
       </div>
