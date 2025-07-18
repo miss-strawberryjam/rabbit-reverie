@@ -74,6 +74,7 @@ OP, Cardigan, Rosette: Mary Magdalene
 <p>I am wearing one of my favorite dresses Claudette by Mary Magdalene! It reminds me of my calm place which is a wild flower meadow with a running stream near by, trees, and I'm under the shade on top of a blanket having a picnic. When I think of my calm place, I would be wearing this dress.</p>
 
 
+<!-- 🧩 Cusdis thread element -->
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="2fbd67db-dbaf-4b81-bba1-5193744efb7b"
@@ -82,9 +83,37 @@ OP, Cardigan, Rosette: Mary Magdalene
   data-page-title="Rainy Day"
 ></div>
 
+<!-- ✅ Inject custom CSS into iframe -->
+<script>
+  window.CUSDIS_LOCALE = 'en';
+  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
 
-          <!-- 🧩 Cusdis script (load AFTER content is ready) -->
-         <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  document.addEventListener('cusdisIframeLoaded', () => {
+    const iframe = document.querySelector('#cusdis_thread iframe');
+    if (!iframe) return;
+
+    try {
+      const srcdoc = iframe.getAttribute('srcdoc');
+      if (srcdoc) {
+        const updated = srcdoc.replace(
+          /<link rel="stylesheet" href="[^"]*style\.css">/,
+          `<link rel="stylesheet" href="${window.CUSDIS_CSS}">`
+        );
+        iframe.setAttribute('srcdoc', updated);
+      }
+    } catch (e) {
+      console.warn('Could not patch Cusdis iframe:', e);
+    }
+  });
+
+  // load Cusdis script
+  const script = document.createElement('script');
+  script.src = 'https://cusdis.com/js/cusdis.es.js';
+  script.async = true;
+  script.defer = true;
+  document.body.appendChild(script);
+</script>
+
         </div>
       </div>
     </div>
