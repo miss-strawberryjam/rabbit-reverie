@@ -9,23 +9,12 @@ layout: default
 <!-- Optional: visually separate from Utterances if you still use it -->
 <!-- <div id="utterances-thread"></div> -->
 
-<!-- Cute fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
-
-<script>
-  window.CUSDIS_LOCALE = 'en';
-  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
-</script>
-
-
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="2fbd67db-dbaf-4b81-bba1-5193744efb7b"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
+  data-page-id="{{ page.url }}"
+  data-page-url="{{ site.url }}{{ page.url }}"
+  data-page-title="{{ page.title }}"
 ></div>
+
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-
-

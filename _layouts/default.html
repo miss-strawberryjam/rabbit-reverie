@@ -7,34 +7,48 @@
     {% else %}
     <title>{{ "rabbit . reverie - " | append: page.title | downcase }}</title>
     {% endif %}
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Cute fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <!-- ✅ Set this BEFORE loading Cusdis -->
+    <script>
+      window.CUSDIS_LOCALE = 'en';
+      window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
+    </script>
   </head>
-  <div class="row" id="header"></div>
 
+  <body>
+    <div class="row" id="header"></div>
 
-{% if page.page_type == 'wardrobe' %}
-  <div class="container-fluid wardrobe">
-{% else %}
-  <div class="container-fluid">
-{% endif %}
+    {% if page.page_type == 'wardrobe' %}
+      <div class="container-fluid wardrobe">
+    {% else %}
+      <div class="container-fluid">
+    {% endif %}
 
+      <div class="row">
+        <div class="col-md-4 right">
+          {% include navigation.html %}
+        </div>
 
-  	<div class="row">
-      <div class="col-md-4 right">
-      {% include navigation.html %}
-      </div>
-  			<div class="col-md-8">
+        <div class="col-md-8">
           <br>
-	  			<img src="/assets/logo.png" class="center-block"/><br>
-	  			<a href="{% link index.html %}"><img class="img-responsive center-block" src="/assets/main.png" /></a>
-  					<body>
-    				{{ content }}
-  					</body>
-  			</div>
-		</div>
-	</div>
+          <img src="/assets/logo.png" class="center-block"/><br>
+          <a href="{% link index.html %}"><img class="img-responsive center-block" src="/assets/main.png" /></a>
+          
+          <!-- ✅ Here’s your page content -->
+          {{ content }}
 
-<footer id="footer" class="nav"></footer>
-	</div>
+          <!-- ✅ Load Cusdis script -->
+          <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="nav"></footer>
+  </body>
 </html>
