@@ -52,4 +52,12 @@ nav a { text-decoration: none; }
 
 .img-hor { -moz-transform: scale(1, 1); -o-transform: scale(1, 1); -webkit-transform: scale(1, 1); transform: scale(1, 1); }
 
+.comment-heading { font-family: 'Quicksand', sans-serif; font-size: 1.5rem; text-align: center; color: #b86b77; margin-top: 2rem; margin-bottom: 1rem; letter-spacing: 1px; }
+
+.comment-heading { position: relative; display: inline-block; }
+
+.comment-heading::after { content: ''; display: block; width: 80%; margin: 0.5rem auto 0; border-bottom: 2px dashed #b86b77; }
+
+.comment-note { font-family: 'Quicksand', sans-serif; font-size: 1rem; color: #aa6b84; text-align: center; margin-top: 0.5rem; margin-bottom: 2rem; opacity: 0.8; line-height: 1.4; }
+
 /*# sourceMappingURL=styles.css.map */
