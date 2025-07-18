@@ -1,18 +1,20 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     
     <title>rabbit . reverie - new year new haul</title>
     
-    
-    <link rel="stylesheet" href="/assets/css/styles.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Cute fonts -->
+    <!-- Site-wide stylesheet -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-    <!-- ✅ Set this BEFORE loading Cusdis -->
+    <!-- Cusdis config: MUST be set BEFORE script loads -->
     <script>
       window.CUSDIS_LOCALE = 'en';
       window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
@@ -23,7 +25,7 @@
     <div class="row" id="header"></div>
 
     
-      <div class="container-fluid">
+    <div class="container-fluid">
     
 
       <div class="row">
@@ -56,10 +58,10 @@
 
         <div class="col-md-8">
           <br>
-          <img src="/assets/logo.png" class="center-block"/><br>
+          <img src="/assets/logo.png" class="center-block" /><br>
           <a href="/"><img class="img-responsive center-block" src="/assets/main.png" /></a>
-          
-          <!-- ✅ Here’s your page content -->
+
+          <!-- 📝 Your page content will go here -->
           <h3>New Year New Haul</h3>
 <p>07 Jan 2024 - strawberryjam</p>
 
@@ -80,30 +82,30 @@ Wire Head - Gobelin JSK set</td>
 <p>Not much to report on this work day. I took my mom to the dentist and in striving in my goal to become more of a daily lolita, I wondered if I should wear lolita. I opted not to for such a quick errand. It did end up taking her 2 hours! I didn't realize people spend that long (on their first appointment with a new dentist). I had plenty of time to go to a cafe to work. Lolita dresses sadge to not be worn!</p>
 
 
-<!-- 🍓 Optional: Cute fonts if you want them on post pages too -->
+<!-- Cute fonts (optional) -->
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-<!-- 🐰 Custom CSS for Cusdis (must be BEFORE loading the script!) -->
+<!-- ✅ Set Cusdis BEFORE loading the thread -->
 <script>
-  window.CUSDIS_LOCALE = 'en';
-  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
+  // Do it in window.onload to delay until layout is ready
+  window.onload = function () {
+    window.CUSDIS_LOCALE = 'en';
+    window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
+
+    const thread = document.createElement('div');
+    thread.id = 'cusdis_thread';
+    thread.setAttribute('data-host', 'https://cusdis.com');
+    thread.setAttribute('data-app-id', '2fbd67db-dbaf-4b81-bba1-5193744efb7b');
+    thread.setAttribute('data-page-id', '/2024/01/07/new-year-new-haul.html');
+    thread.setAttribute('data-page-url', '/2024/01/07/new-year-new-haul.html');
+    thread.setAttribute('data-page-title', 'New Year New Haul');
+    document.body.appendChild(thread);
+  }
 </script>
 
-<!-- 💌 Cusdis embed -->
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="2fbd67db-dbaf-4b81-bba1-5193744efb7b"
-  data-page-id="/2024/01/07/new-year-new-haul.html"
-  data-page-url="/2024/01/07/new-year-new-haul.html"
-  data-page-title="New Year New Haul"
-></div>
 
-<!-- ✨ Load Cusdis script AFTER setting up config and div -->
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-
-          <!-- ✅ Load Cusdis script -->
-          <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+          <!-- 🧩 Cusdis script (load AFTER content is ready) -->
+         <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
         </div>
       </div>
     </div>

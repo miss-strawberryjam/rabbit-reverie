@@ -1,18 +1,20 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     
     <title>rabbit . reverie - why i love classic lolita</title>
     
-    
-    <link rel="stylesheet" href="/assets/css/styles.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Cute fonts -->
+    <!-- Site-wide stylesheet -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-    <!-- ✅ Set this BEFORE loading Cusdis -->
+    <!-- Cusdis config: MUST be set BEFORE script loads -->
     <script>
       window.CUSDIS_LOCALE = 'en';
       window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
@@ -23,7 +25,7 @@
     <div class="row" id="header"></div>
 
     
-      <div class="container-fluid">
+    <div class="container-fluid">
     
 
       <div class="row">
@@ -56,10 +58,10 @@
 
         <div class="col-md-8">
           <br>
-          <img src="/assets/logo.png" class="center-block"/><br>
+          <img src="/assets/logo.png" class="center-block" /><br>
           <a href="/"><img class="img-responsive center-block" src="/assets/main.png" /></a>
-          
-          <!-- ✅ Here’s your page content -->
+
+          <!-- 📝 Your page content will go here -->
           <h3>Why I Love Classic Lolita</h3>
 <p>11 Mar 2022 - strawberryjam</p>
 
@@ -122,30 +124,30 @@ Here are dresses from both brands to admire as well. </p>
 
 
 
-<!-- 🍓 Optional: Cute fonts if you want them on post pages too -->
+<!-- Cute fonts (optional) -->
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-<!-- 🐰 Custom CSS for Cusdis (must be BEFORE loading the script!) -->
+<!-- ✅ Set Cusdis BEFORE loading the thread -->
 <script>
-  window.CUSDIS_LOCALE = 'en';
-  window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
+  // Do it in window.onload to delay until layout is ready
+  window.onload = function () {
+    window.CUSDIS_LOCALE = 'en';
+    window.CUSDIS_CSS = 'https://rabbitreverie.com/assets/css/cusdis-theme.css';
+
+    const thread = document.createElement('div');
+    thread.id = 'cusdis_thread';
+    thread.setAttribute('data-host', 'https://cusdis.com');
+    thread.setAttribute('data-app-id', '2fbd67db-dbaf-4b81-bba1-5193744efb7b');
+    thread.setAttribute('data-page-id', '/2022/03/11/why-i-love-classic-lolita.html');
+    thread.setAttribute('data-page-url', '/2022/03/11/why-i-love-classic-lolita.html');
+    thread.setAttribute('data-page-title', 'Why I Love Classic Lolita');
+    document.body.appendChild(thread);
+  }
 </script>
 
-<!-- 💌 Cusdis embed -->
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="2fbd67db-dbaf-4b81-bba1-5193744efb7b"
-  data-page-id="/2022/03/11/why-i-love-classic-lolita.html"
-  data-page-url="/2022/03/11/why-i-love-classic-lolita.html"
-  data-page-title="Why I Love Classic Lolita"
-></div>
 
-<!-- ✨ Load Cusdis script AFTER setting up config and div -->
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-
-          <!-- ✅ Load Cusdis script -->
-          <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+          <!-- 🧩 Cusdis script (load AFTER content is ready) -->
+         <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
         </div>
       </div>
     </div>
