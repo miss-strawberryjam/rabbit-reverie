@@ -20,7 +20,7 @@ ul { text-align: center; list-style-type: none; }
 @media only screen and (max-width: 1024px) { .col-md-4, .col-md-8 { width: 100% !important; } nav { text-align: center; font-family: 'IM Fell DW Pica SC', serif; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 85%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (min-width: 1025px) { nav { background-image: url("/assets/menu-bg.png"); width: 175px; height: 250px; text-align: center; font-family: 'IM Fell DW Pica SC', serif; margin-top: 75px; font-size: 18px; padding-top: 10px; background-repeat: no-repeat; color: #685E4E; list-style-type: none; } .container-fluid { width: 75%; margin-left: auto; margin-right: auto; position: relative; min-height: 100%; text-align: center; } .right { float: right !important; } .wardrobe { width: 90% !important; } }
+@media only screen and (min-width: 1025px) { nav { background-image: url("/assets/layout_2025/rr-menu.png"); text-align: center; font-family: 'IM Fell DW Pica SC', serif; margin-top: 75px; font-size: 18px; padding-top: 10px; background-repeat: no-repeat; color: #685E4E; list-style-type: none; } .container-fluid { width: 75%; margin-left: auto; margin-right: auto; position: relative; min-height: 100%; text-align: center; } .right { float: right !important; } .wardrobe { width: 90% !important; } }
 
 a { color: #685E4E; text-decoration: underline; }
 
