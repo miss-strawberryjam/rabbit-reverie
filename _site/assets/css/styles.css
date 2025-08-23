@@ -1,9 +1,12 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .current { color: #d88aa3; }
 
-body { background-image: url("/assets/bg.jpg"); font-family: 'Jacques Francois', serif; color: #685E4E; margin: 0; padding: 0; height: 100%; text-align: center; }
+body { background-image: url("/assets/bg.jpg"); font-family: "Courier Prime", monospace; color: #685E4E; margin: 0; padding: 0; height: 100%; text-align: center; }
 
 p { text-align: justify; }
 
@@ -13,14 +16,47 @@ li { text-align: justify; }
 
 ul { text-align: center; list-style-type: none; }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 749px) { nav { text-align: center; font-family: 'IM Fell DW Pica SC', serif; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 100%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } .img-responsive { display: block; max-width: 100%; width: 100%; height: auto; } }
+h3 { font-family: 'Itim', cursive; }
+
+.brand-pair { display: flex; align-items: center; /* vertical align */ justify-content: center; /* centered as a group */ gap: 12px; /* space between images */ flex-wrap: wrap; /* they can wrap on very small screens */ }
+
+/* Keep images responsive */
+.brand-pair img { height: auto; max-width: 100%; }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 1024px) { .col-md-4, .col-md-8 { width: 100% !important; } nav { text-align: center; font-family: 'IM Fell DW Pica SC', serif; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 85%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } }
+@media only screen and (max-width: 749px) { nav { text-align: center; font-family: 'Itim', cursive; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 100%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } .img-responsive { display: block; max-width: 100%; width: 100%; height: auto; } }
+
+/* DESKTOP (default) — your existing cute frame */
+nav.rr-menu { /* whatever you already have for the frame/background */ /* width/min-height/background image … */ }
+
+.rr-menu__list { /* your existing insets/positioning */ }
+
+.rr-menu__list .label { display: none; }
+
+/* hide text on desktop */
+.rr-menu__list .icon { display: block; }
+
+/* show image buttons */
+/* MOBILE — convert to plain text menu */
+@media (max-width: 1024px) { nav.rr-menu { width: 100%; max-width: 520px; margin: 16px auto; background: none !important; /* drop the illustrated frame */ aspect-ratio: auto; /* don’t force tall box */ padding: 0; color: #685E4E; } .rr-bunny { display: none !important; } /* hide decorative bunny */ .rr-menu__list { position: static; /* let it flow normally */ inset: auto; list-style: none; margin: 0; padding: 0 16px; } .rr-menu__list li { margin: 0; } .rr-menu__list a { display: block; /* big tap targets */ padding: 12px 0; text-decoration: none; color: inherits; border-bottom: 1px dashed rgba(104, 94, 78, 0.35); } .rr-menu__list a:last-child { border-bottom: 0; } .rr-menu__list .icon { display: none; } /* hide images */ .rr-menu__list .label { /* show text labels */ display: inline-block; font-family: 'Itim', cursive; font-size: 20px; line-height: 1.25; color: #685E4E; } /* optional: highlight current page on mobile */ .rr-menu__list a.current .label { font-weight: 700; } }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (min-width: 1025px) { nav { background-image: url("/assets/layout_2025/rr-menu.png"); text-align: center; font-family: 'IM Fell DW Pica SC', serif; margin-top: 75px; font-size: 18px; padding-top: 10px; background-repeat: no-repeat; color: #685E4E; list-style-type: none; } .container-fluid { width: 75%; margin-left: auto; margin-right: auto; position: relative; min-height: 100%; text-align: center; } .right { float: right !important; } .wardrobe { width: 90% !important; } }
+@media only screen and (max-width: 1024px) { .col-md-4, .col-md-8 { width: 100% !important; } nav { text-align: center; font-family: 'Itim', cursive; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 85%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } }
+
+nav.rr-menu { /* match your artwork */ width: 360px; /* ← set to rr-menu.png width */ min-height: 360px; /* ← set close to rr-menu.png height */ background: url("/assets/layout_2025/rr-menu.png") no-repeat left top; background-size: 100% auto; /* scale art to this width */ /* inner padding: top/right/bottom/left */ padding: 70px 24px 50px 32px; /* ← big bottom to clear the bunny */ box-sizing: border-box; margin: 60px auto 0; /* center the block in your Bootstrap column */ color: #685E4E; font-family: 'Itim', cursive; text-align: left; }
+
+/* tidy list */
+nav.rr-menu ul { list-style: none; margin: 0; padding: 0; }
+
+nav.rr-menu li { margin: 8px 0; text-align: center; }
+
+nav.rr-menu a { display: inline-block; }
+
+nav.rr-menu img { display: block; height: 28px; }
+
+/* unify button size */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 1025px) { nav { padding-bottom: clamp(90px, 18vw, 140px); } .container-fluid { width: 75%; margin-left: auto; margin-right: auto; position: relative; min-height: 100%; text-align: center; } .right { float: right !important; } .wardrobe { width: 90% !important; } }
 
 a { color: #685E4E; text-decoration: underline; }
 
@@ -28,9 +64,9 @@ a:hover { color: #9e917c; text-decoration: underline; }
 
 nav a { text-decoration: none; }
 
-#header { width: 100%; padding-top: 0; height: 31px; background: url("/assets/border.png"); }
+#header { width: 100%; padding-top: 0; height: 25px; background: url("/assets/layout_2025/heart-dash-border.png"); }
 
-#footer { height: 60px; background: url("/assets/border.png"); background-repeat: repeat-x; margin-top: 20px; }
+#footer { height: 25px; background: url("/assets/layout_2025/heart-dash-border.png"); background-repeat: repeat-x; margin-top: 20px; }
 
 .about { text-align: left; }
 

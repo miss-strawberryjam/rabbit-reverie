@@ -16,6 +16,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+
+
   </head>
 
   <body>
@@ -30,12 +33,15 @@
       <div class="row">
         <div class="col-md-4 right">
           {% include navigation.html %}
+        </div><br>
+        <div class="brand-pair">
+          <img src="/assets/layout_2025/rabbit-reverie-text.png" alt="Rabbit Reverie text" class="brand-text">
+          <img src="/assets/layout_2025/rr-logo.png" alt="Rabbit Reverie logo" class="brand-logo">
         </div>
-
         <div class="col-md-8">
           <br>
-          <img src="/assets/logo.png" class="center-block" /><br>
-          <a href="{% link index.html %}"><img class="img-responsive center-block" src="/assets/main.png" /></a>
+                    <div>. home of 🐇💬🐇💕 the rabbit 🐇💬🐇💕 reverie 🐇💬🐇💕🐇💬 .</div><br>
+          <!--<a href="{% link index.html %}"><img class="img-responsive center-block" src="/assets/layout_2025/main.png" /></a>-->
 
           <!-- 📝 Your page content will go here -->
           {{ content }}
