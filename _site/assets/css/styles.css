@@ -26,6 +26,12 @@ h3 { font-family: 'Itim', cursive; }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 749px) { nav { text-align: center; font-family: 'Itim', cursive; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 100%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } .img-responsive { display: block; max-width: 100%; width: 100%; height: auto; } }
 
+/* Default: show desktop menu, hide mobile */
+.rr-menu-mobile { display: none; }
+
+/* Mobile breakpoint */
+@media (max-width: 1024px) { .rr-desktop { display: none; } .rr-menu-mobile { display: block; margin: 16px auto; max-width: 520px; padding: 0 16px; } .rr-menu-mobile ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); /* ← two columns */ gap: 8px 24px; /* row / column gaps */ justify-items: start; /* left-align each cell */ } .rr-menu-mobile li { border: 0; margin: 0; } /* remove row borders */ .rr-menu-mobile a { display: inline-block; text-decoration: none; color: #685E4E; font-family: 'Itim', cursive; font-size: 20px; line-height: 1.25; padding: 6px 0; /* smaller vertical padding */ } .rr-menu-mobile a.current { font-weight: 700; } }
+
 /* DESKTOP (default) — your existing cute frame */
 nav.rr-menu { /* whatever you already have for the frame/background */ /* width/min-height/background image … */ }
 
