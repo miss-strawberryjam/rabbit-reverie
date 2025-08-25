@@ -1,0 +1,24 @@
+---
+layout: post
+author: strawberryjam
+date: 2025-08-24 12:35:45
+---
+<p>This diary really makes me seem like a daily lolita, but I'm not.. I have a kid after all. So real life definitely gets in the way.</p>
+<p>But I still like to dress cute for daily looks like wear more casual brands like Emily Temple Cute!</p>
+<p>I don't have any handy pictures at the moment because I usually don't wear make up for these looks :sweat: So many freckles!!!</p>
+
+<p>I went to have boba with Michelle the other day on one of her rare days off.. and then we strolled around Ross. She ended up buying stuff, I feel bad since I was the one that brought the idea up, haha.</p>
+<img src="/assets/other_pics/IMG_0118.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<img src="/assets/other_pics/IMG_0126.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
+<p>We both wore dark colors ^^ I wore <a href="https://lolibrary.org/items/mary-magdalene-terrence-rose-jsk">Terence Rose JSK</a>! It's really faded in areas.. oh well.</p>
+
+A couple of days later I went to my office. I don't go very often since I work from home full time and am not required to go in.
+<img src="/assets/other_pics/IMG_0207.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;">
+<p>I wore another purple dress! The name of this dress escapes me.. hm... I wore it with a brown cutsew since I knew I would need to be running around to the train and in the city and wanted to be comfortable. (Cutsews are clothing made of jersey knit)</p>
+<p>I was supposed to do a presentation with the CEO in the audience so I tried to wear a toned down coordinate. I don't know if this qualifies. But I'm pretty sure my judgement of toned down... is completely wrong after having been a lolita 10+ years haha.</p>
+<p>I wore purple for both coordinates so I wore my Saint Claire replica that <a href="https://apple-salad.tumblr.com/">apple</a> made that is purple!</p>
+
+<p><a href="https://www.youtube.com/watch?v=cBtqQ8JdkpE&list=RDcBtqQ8JdkpE&start_radio=1">˖ ݁♬⋆.˚𝄞. Perfume - Saikidousekai ˖ ݁♬⋆.˚𝄞.</a></p>
+<p>Not a big fan of Perfume, but saw that they had a new album. I like this new song from the album, gives me boss battle + old school Macross vibes. I love Macross and retro kind of songs (ala "Do You Remember Love?" Not that this song is that, haha ._.</p>
+
+<p>P.S. Just made a big purchase of fabric. I hope you'll see more homemade goods from me soon :raisedhands:</p>
