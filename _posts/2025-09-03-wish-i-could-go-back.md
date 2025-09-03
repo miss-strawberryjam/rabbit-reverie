@@ -30,5 +30,5 @@ date: 2025-09-03 12:35:45
 
 <p>Some photos were from my digital camera. Can you tell which? ^^</p>
 
-<p><a href="https://youtu.be/VB7Bc4ycoy4?feature=shared">˖ ݁♬⋆.˚𝄞. Fin.K.L -  To My Boyfriend˖ ݁♬⋆.˚𝄞.</a></p>
+<p><a href="https://youtu.be/VB7Bc4ycoy4?feature=shared">˖ ݁♬⋆.˚𝄞. Fin.K.L -  To My Boyfriend 내 남자 친구에게˖ ݁♬⋆.˚𝄞.</a></p>
 <p>I miss old Kpop, maybe I should learn the dance to this lololol. I like how the beginning is like the old sticker picture machines ^^ they also up'ed the saturation of the video so intensely that they lost the noses! This song is from 1998, I heard it around the time it came out ^^ This is the stupid shit I grew up on..but I really miss those times.</p>
