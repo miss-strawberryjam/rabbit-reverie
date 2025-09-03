@@ -24,7 +24,6 @@ date: 2025-09-03 12:35:45
 <img src="/assets/other_pics/IMG_0401.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
 
 <img src="/assets/other_pics/DSC_2330.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
-<img src="/assets/other_pics/DSC_2340.jpg" class="img-rounded img-responsive center-block" style="max-height: 55%; max-width: 55%;"><br>
 
 <p>Some photos were from my digital camera. Can you tell which? ^^</p>
 
