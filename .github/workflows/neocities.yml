@@ -32,7 +32,6 @@ jobs:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
         dist_dir: _site/
-            cleanup: true
         exclude: |
           inspo.html
           inspo/**
