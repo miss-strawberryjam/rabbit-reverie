@@ -5,7 +5,7 @@
     {% for item in site.data.navigation %}
       <li>
         <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
-          <img class="icon" src="{{ '/assets/layout_2025/menu/' | relative_url }}{{ item.name }}.png" alt="{{ item.name }}">
+          <img class="icon" src="{{ '/assets/pixel_layout_2025/menu/' | relative_url }}{{ item.name }}.png" alt="{{ item.name }}">
         </a>
       </li>
     {% endfor %}

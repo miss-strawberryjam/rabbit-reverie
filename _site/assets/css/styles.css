@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .current { color: #d88aa3; }
 
-body { background-image: url("/assets/bg.jpg"); font-family: "Courier Prime", monospace; color: #685E4E; margin: 0; padding: 0; height: 100%; text-align: center; }
+body { background-image: url("/assets/pixel_layout_2025/gingham-bg.png"); font-family: "Courier Prime", monospace; color: #685E4E; margin: 0; padding: 0; height: 100%; text-align: center; }
 
 p { text-align: justify; }
 
@@ -18,7 +18,9 @@ ul { text-align: center; list-style-type: none; }
 
 h3 { font-family: 'Itim', cursive; }
 
-.brand-pair { display: flex; align-items: center; /* vertical align */ justify-content: center; /* centered as a group */ gap: 12px; /* space between images */ flex-wrap: wrap; /* they can wrap on very small screens */ }
+.brand-pair { display: flex; align-items: center; /* vertical align */ justify-content: center; /* centered as a group */ gap: 12px; /* space between images */ flex-wrap: wrap; /* they can wrap on very small screens */ background-color: rgba(241, 231, 227, 0.5) !important; }
+
+.col-md-8 { background-color: rgba(241, 231, 227, 0.5) !important; }
 
 /* Keep images responsive */
 .brand-pair img { height: auto; max-width: 100%; }
@@ -49,7 +51,7 @@ nav.rr-menu { /* whatever you already have for the frame/background */ /* width/
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 1024px) { .col-md-4, .col-md-8 { width: 100% !important; } nav { text-align: center; font-family: 'Itim', cursive; font-size: 18px; color: #685E4E; word-spacing: 16px; } nav ul li { display: inline; font-size: 18px; } .mobile-hide { display: none !important; } .container-fluid { width: 85%; margin-left: auto; margin-right: auto; position: relative; } .wardrobe { width: 100% !important; } }
 
-nav.rr-menu { /* match your artwork */ width: 360px; /* ← set to rr-menu.png width */ min-height: 360px; /* ← set close to rr-menu.png height */ background: url("/assets/layout_2025/rr-menu.png") no-repeat left top; background-size: 100% auto; /* scale art to this width */ /* inner padding: top/right/bottom/left */ padding: 70px 24px 50px 32px; /* ← big bottom to clear the bunny */ box-sizing: border-box; margin: 60px auto 0; /* center the block in your Bootstrap column */ color: #685E4E; font-family: 'Itim', cursive; text-align: left; }
+nav.rr-menu { /* match your artwork */ width: 360px; /* ← set to rr-menu.png width */ min-height: 360px; /* ← set close to rr-menu.png height */ /* inner padding: top/right/bottom/left */ padding: 70px 24px 50px 32px; /* ← big bottom to clear the bunny */ box-sizing: border-box; margin: 60px auto 0; /* center the block in your Bootstrap column */ color: #685E4E; font-family: 'Itim', cursive; text-align: left; }
 
 /* tidy list */
 nav.rr-menu ul { list-style: none; margin: 0; padding: 0; }
@@ -58,9 +60,7 @@ nav.rr-menu li { margin: 8px 0; text-align: center; }
 
 nav.rr-menu a { display: inline-block; }
 
-nav.rr-menu img { display: block; height: 28px; }
-
-/* unify button size */
+/* nav.rr-menu img{ display:block; height:60px; }  unify button size */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (min-width: 1025px) { nav { padding-bottom: clamp(90px, 18vw, 140px); } .container-fluid { width: 75%; margin-left: auto; margin-right: auto; position: relative; min-height: 100%; text-align: center; } .right { float: right !important; } .wardrobe { width: 90% !important; } }
 
@@ -70,9 +70,9 @@ a:hover { color: #9e917c; text-decoration: underline; }
 
 nav a { text-decoration: none; }
 
-#header { width: 100%; padding-top: 0; height: 25px; background: url("/assets/layout_2025/heart-dash-border.png"); }
+#header { width: 100%; padding-top: 0; height: 22px; background: url("/assets/pixel_layout_2025/rr-border-horizontal.png"); }
 
-#footer { height: 25px; background: url("/assets/layout_2025/heart-dash-border.png"); background-repeat: repeat-x; margin-top: 20px; }
+#footer { height: 25px; background: url("/assets/pixel_layout_2025/rr-border-horizontal-bottom.png"); background-repeat: repeat-x; margin-top: 20px; }
 
 .about { text-align: left; }
 

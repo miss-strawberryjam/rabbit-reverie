@@ -10,7 +10,7 @@
 }
 
 body {
- background-image: url("/assets/bg.jpg");
+ background-image: url("/assets/pixel_layout_2025/gingham-bg.png");
  font-family: "Courier Prime", monospace;
  color: #685E4E;
  margin:0;
@@ -18,6 +18,7 @@ body {
  height:100%;
  text-align: center;
 }
+
 
 p {
 	text-align:justify;
@@ -48,7 +49,18 @@ h3 {
   justify-content:center;   /* centered as a group */
   gap: 12px;                /* space between images */
   flex-wrap: wrap;          /* they can wrap on very small screens */
+  background-color: rgba(241, 231, 227, 0.5)!important;
+
 }
+
+
+.col-md-8 {
+
+  background-color: rgba(241, 231, 227, 0.5)!important;
+
+} 
+
+
 
 /* Keep images responsive */
 .brand-pair img{
@@ -191,6 +203,7 @@ nav.rr-menu{
 @media only screen and (max-width: 1024px) {
 .col-md-4, .col-md-8 {
   width:100%!important;
+
 } 
 
 nav {
@@ -229,8 +242,6 @@ nav.rr-menu{
   width: 360px;              /* ← set to rr-menu.png width */
   min-height: 360px;         /* ← set close to rr-menu.png height */
 
-  background: url("/assets/layout_2025/rr-menu.png") no-repeat left top;
-  background-size: 100% auto;      /* scale art to this width */
 
   /* inner padding: top/right/bottom/left */
   padding: 70px 24px 50px 32px;   /* ← big bottom to clear the bunny */
@@ -244,7 +255,7 @@ nav.rr-menu{
 nav.rr-menu ul{ list-style:none; margin:0; padding:0; }
 nav.rr-menu li{ margin:8px 0; text-align:center; }
 nav.rr-menu a{ display:inline-block; }
-nav.rr-menu img{ display:block; height:28px; } /* unify button size */
+/* nav.rr-menu img{ display:block; height:60px; }  unify button size */
 
 
 
@@ -296,13 +307,13 @@ nav a {
 #header {
 	width: 100%;
 	padding-top: 0;
-	height:25px;
-	background: url("/assets/layout_2025/heart-dash-border.png");
+	height:22px;
+	background: url("/assets/pixel_layout_2025/rr-border-horizontal.png");
 }
 
 #footer {
    height:25px;
-   background: url("/assets/layout_2025/heart-dash-border.png");
+   background: url("/assets/pixel_layout_2025/rr-border-horizontal-bottom.png");
    background-repeat: repeat-x;
    margin-top: 20px;
 }
