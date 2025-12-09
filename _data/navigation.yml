@@ -5,7 +5,9 @@
 - name: wardrobe
   link: /wardrobe.html 
 - name: diary
-  link: /diary.html    
+  link: /diary.html
+- name: sewing-log
+  link: /sewing-log.html
 - name: links
   link: /links.html       
 - name: guestbook

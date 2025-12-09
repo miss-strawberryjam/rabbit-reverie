@@ -1,0 +1,51 @@
+- name: "Heart Shaped Tote Bag"
+  variant: "Blue Gingham"
+  status: "in-progress"   # in-progress | finished | queued
+  image: "/assets/sewing/IMG_1271.jpg"
+  last_worked: "October?"
+  goal: ""
+  time_est: ""
+  tags: ["bag", "lace"]
+  progress: 30            # 0–100
+  progress_label: "Cut pieces · drafting · straps"
+  notes: >
+    Thought I could draft my own pattern but not so sure about that :sweat:
+
+- name: "Heart Shaped Tote Bag v2"
+  variant: "Floral"
+  status: "in-progress"
+  image: "/assets/sewing/IMG_1555.jpg"
+  last_worked: "Nov 12?"
+  goal: ""
+  time_est: "2–3 hrs"
+  tags: ["floral", "tote bag"]
+  progress: 50
+  progress_label: "Cut pieces · lining · quilting"
+  notes: >
+    Really excited about my first more complicated project.
+
+- name: "Every day Pouch"
+  variant: "Floral"
+  status: "finished"
+  image: "/assets/sewing/IMG_1475-2.jpg"
+  last_worked: ""
+  goal: "gifts"
+  time_est: "2–3 hrs"
+  tags: ["pouch", "gift"]
+  progress: 100
+  progress_label: "All done ✿"
+  notes: >
+    Keep this one low-pressure and fun and give them out as gifts ✿
+
+- name: "Tote bag"
+  variant: "Floral"
+  status: "finished"
+  image: "/assets/sewing/IMG_1486.jpg"
+  last_worked: "Oct?"
+  goal: "Mode: “Learning”"
+  time_est: "3 hrs"
+  tags: ["bag", "drafting"]
+  progress: 100
+  progress_label: "Sketching & taking measurements"
+  notes: >
+    This is allowed to be messy. Goal = learn, not perfection. Use cheap cotton.
